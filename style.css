@@ -1,0 +1,121 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.main-container {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.first-card, .second-card, .third-card {
+    background-color: white;
+    width: 30%;
+    height: 80vh;
+    margin: 0 2%; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.second-card {
+    background-color: white;
+}
+
+.third-card {
+    background-color: white;
+}
+
+.first-text h3,
+.second-text h3,
+.third-text h3 {
+    margin-bottom: 15px; 
+}
+
+
+.first-image{
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('images/man-with-headphones-art-gallery-back-view.jpg');
+
+}
+
+.first-text{
+    text-align: center;
+    padding-top: 25px; 
+    font-family: 'Mukta', sans-serif; 
+    font-size: 20px;
+
+}
+
+.first-text > span{
+    font-weight: 300;
+}
+
+.second-text{
+    text-align: center;
+    padding-top: 25px; 
+    font-family: 'Mukta', sans-serif; 
+    font-size: 20px;
+}
+
+.third-text{
+    text-align: center;
+    padding-top: 25px; 
+    font-family: 'Mukta', sans-serif; 
+    font-size: 20px;
+}
+
+.second-image{
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+    background-position: top;
+    background-image: url('images/H27A0340-1-1536x931.jpg');
+
+}
+
+.third-image{
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+    background-position: top;
+    background-image: url('images/Jay-Paul-Big-Brother-Naija-1062x575.jpg');
+
+}
+
+.icons{
+    margin-top: 30px;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .footer a {
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .footer span {
+    font-size: 14px;
+  }
+  
+  
+
